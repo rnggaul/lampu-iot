@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="layouts">
+        <section class="navbar">
+            <h3>CUYLABS</h3>
+        </section>
+
+        <section class="page-title">
+            <h3>LED CONTROL</h3>
+        </section>
+        <section class="leds">
+            <div class="led">
+                <img src="assets/led-off.png" alt="led-on" class="led-image" id="dapurLedImage">
+                <p class="led-location">DAPUR</p>
+                <button class="led-submit" id="ledDapur" onclick="setDapurLed()" >TURN ON</button>
+            </div>
+            <div class="led">
+                <img src="assets/led-off.png" alt="led-on" class="led-image" id="kamarLedImage">
+                <p class="led-location">KAMAR</p>
+                <button class="led-submit" id="ledKamar" onclick="setKamarLed()" >TURN ON</button>
+            </div>
+            <div class="led">
+                <img src="assets/led-off.png" alt="led-on" class="led-image" id="halamanLedImage">
+                <p class="led-location">HALAMAN</p>
+                <button class="led-submit" id="ledHalaman" onclick="setHalamanLed()" >TURN ON</button>
+            </div>
+            <div class="led">
+                <img src="assets/led-off.png" alt="led-on" class="led-image" id="toiletLedImage">
+                <p class="led-location">TOILET</p>
+                <button class="led-submit" id="ledToilet" onclick="setToiletLed()" >TURN ON</button>
+            </div>
+
+        </section>
+
+        <section class="bottombar">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-home"></i></a></li>
+                <li><a href="led.html"><i class="fa-solid fa-lightbulb"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-fan"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                
+            </ul>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
