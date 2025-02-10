@@ -1,4 +1,4 @@
-const endpoint = "lampurumah.duckdns.org";
+const endpoint = "https://lampurumah.duckdns.org";
 
 function getDapurLed(){
     fetch(endpoint + "/dapur", {
